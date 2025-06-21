@@ -10,12 +10,12 @@ const testimonials = [
   {
     name: 'Alex Smith',
     image: '/images/Alex-Smith.jpeg',
-    text: 'I never thought I could grow food in the city — but my container garden is thriving thanks to this site!'
+    text: 'I never thought I could grow food in the city, but my container garden is thriving thanks to this site!'
   },
   {
     name: 'Maria Kim',
     image: '/images/Maria-Kim.jpeg',
-    text: 'Easy guides, affordable materials — urban farming has never been this accessible.'
+    text: 'Easy guides, affordable materials. Urban farming has never been this accessible.'
   },
   {
     name: 'James Lee',

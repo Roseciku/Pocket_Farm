@@ -11,11 +11,11 @@ const heroSlides = [
   },
   {
     image: '/images/Container-gardening.jpg',
-    caption: 'Grow More With Less — Use Recycled Sacks, Buckets, or Barrels.'
+    caption: 'Grow More With Less. Use Recycled Sacks, Buckets, or Barrels.'
   },
   {
     image: '/images/woman-planting-vegetables-in-her-balcony.jpeg',
-    caption: 'Control Your Nutrition, Save On Food — Make Your Space Work For You.'
+    caption: 'Control Your Nutrition, Save On Food & Make Your Space Work For You.'
   },
 ];
 
@@ -39,10 +39,10 @@ const [currentIndex, setCurrentIndex] = useState(0);
     <section>
       <div className="bg-[#059212]/10 py-12 text-center px-4">
         <h2 className="text-3xl sm:text-4xl font-bold text-[#2D4F2B] mb-4">
-          Grow Your Own Food, Right Where You Live
+          Nourish Yourself From Your Own Space
         </h2>
         <p className="text-base sm:text-lg text-[#2D4F2B] max-w-2xl mx-auto">
-          Control your nutrition. Cut food costs. Use your balcony, sack, or container to start today.
+          Transform your small space into a green haven. Enjoy healthy harvests, save on groceries, and take charge of what’s on your plate.
         </p>
       </div>
 

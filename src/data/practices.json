@@ -1,0 +1,122 @@
+[
+  {
+    "id": "container-gardening",
+    "name": "Container Gardening",
+    "description": "Container gardening involves growing plants in containers instead of directly in the ground, making it ideal for balconies and small spaces.",
+    "items_required": [
+      "Buckets, basins, or flower pots",
+      "Good quality soil",
+      "Organic compost or manure",
+      "Watering can or bottle",
+      "Seeds or seedlings"
+    ],
+    "step_by_step": [
+      "Select containers with proper drainage holes.",
+      "Fill them with a mix of soil and compost.",
+      "Sow seeds or transplant seedlings.",
+      "Place containers in sunny areas (balcony, windowsill).",
+      "Water regularly and monitor for pests."
+    ],
+    "plants_suitable": ["Sukuma wiki (collard greens)", "Spinach", "Dania (coriander)", "Onions", "Tomatoes"],
+    "video_link": "https://www.youtube.com/watch?v=jYJSZqzIAbE"
+  },
+  {
+    "id": "sack-gardening",
+    "name": "Sack Gardening",
+    "description": "Sack gardening uses vertical sacks filled with soil to grow plants, maximizing vertical space on balconies or yards.",
+    "items_required": [
+      "Gunny sacks",
+      "Soil and compost",
+      "Small stones (for drainage core)",
+      "Seedlings",
+      "Water source"
+    ],
+    "step_by_step": [
+      "Fill sack with alternating layers of soil and compost.",
+      "Add stones in the center for drainage.",
+      "Cut small holes around the sack for planting.",
+      "Plant seedlings in the holes and at the top.",
+      "Water regularly from the top."
+    ],
+    "plants_suitable": ["Sukuma wiki", "Spinach", "Lettuce", "Spring onions"],
+    "video_link": "https://www.youtube.com/watch?v=4J_CvA3sbF0"
+  },
+  {
+    "id": "barrel-gardening",
+    "name": "Barrel Gardening",
+    "description": "This method uses old barrels to create vertical gardens with holes on the sides and plants growing outward.",
+    "items_required": [
+      "Old plastic or metal barrels",
+      "Soil and compost",
+      "Drill or knife (to cut holes)",
+      "Seedlings"
+    ],
+    "step_by_step": [
+      "Drill holes around the sides of the barrel.",
+      "Fill barrel with soil and compost.",
+      "Plant seedlings in side holes and top.",
+      "Water from the top and monitor growth."
+    ],
+    "plants_suitable": ["Strawberries", "Spinach", "Dania", "Onions"],
+    "video_link": "https://www.youtube.com/watch?v=dKDh7XmG2oc"
+  },
+  {
+    "id": "layer-gardening",
+    "name": "Layer Gardening",
+    "description": "Layer gardening involves arranging different plant beds or containers in layered rows to save space.",
+    "items_required": [
+      "Wooden/metal frames or crates",
+      "Containers or bags",
+      "Soil and compost",
+      "Variety of seedlings"
+    ],
+    "step_by_step": [
+      "Set up frame to hold containers at different levels.",
+      "Fill each container with soil and compost.",
+      "Plant suitable crops in each container based on light needs.",
+      "Water regularly."
+    ],
+    "plants_suitable": ["Tomatoes", "Herbs (basil, coriander)", "Spinach", "Chilies"],
+    "video_link": "https://www.youtube.com/watch?v=kv9OAnjNcy0"
+  },
+  {
+    "id": "bottle-gardening",
+    "name": "Bottle Gardening",
+    "description": "This eco-friendly method involves reusing plastic bottles to grow small plants, often hanging vertically or on walls.",
+    "items_required": [
+      "Empty plastic bottles",
+      "String or wire (for hanging)",
+      "Soil and compost",
+      "Herb or leafy vegetable seeds"
+    ],
+    "step_by_step": [
+      "Cut a rectangular opening on the side of the bottle.",
+      "Make drainage holes at the bottom.",
+      "Fill with soil and compost mix.",
+      "Plant seeds or seedlings.",
+      "Hang using string and water lightly."
+    ],
+    "plants_suitable": ["Dania", "Mint", "Spinach", "Lettuce"],
+    "video_link": "https://www.youtube.com/watch?v=yiVevK-_egM"
+  },
+  {
+    "id": "vertical-gardening",
+    "name": "Vertical Gardening",
+    "description": "Vertical gardening uses upright structures like walls or frames to grow plants upward, maximizing vertical space.",
+    "items_required": [
+      "Vertical frames or old shelves",
+      "Hanging pots or fabric pockets",
+      "Soil and compost",
+      "Seeds or seedlings"
+    ],
+    "step_by_step": [
+      "Set up your vertical structure against a wall or balcony.",
+      "Place containers or pockets on the frame.",
+      "Add soil and compost.",
+      "Plant appropriate crops.",
+      "Ensure good sunlight and water regularly."
+    ],
+    "plants_suitable": ["Strawberries", "Herbs", "Lettuce", "Spinach"],
+    "video_link": "https://www.youtube.com/watch?v=RzBWhSW2c9w"
+  }
+]

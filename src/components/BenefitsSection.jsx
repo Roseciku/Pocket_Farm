@@ -21,7 +21,7 @@ const benefits = [
 
 const BenefitsSection = () => {
   return (
-    <section className="bg-[#059212]/10 py-12">
+    <section id="benefits" className="bg-[#059212]/10 py-12">
   <div className="text-center mb-8">
     <h2 className="text-3xl font-bold text-[#2D4F2B]">Benefits of Urban Farming</h2>
   </div>

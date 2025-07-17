@@ -1,8 +1,19 @@
-import React from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const ContactSection = () => {
+  const [status, setStatus] = useState(null);
+const formRef = useRef();
+
+useEffect(() => {
+  // Reset the form when component loads
+  if (formRef.current) {
+    formRef.current.reset();
+    setStatus(null);
+  }
+}, []);
+
   return (
-    <section className="bg-[#2D4F2B] py-12 px-4">
+    <section id="contacts" className="bg-[#2D4F2B] py-12 px-4">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-[#FFEB00]">Get In Touch</h2>
@@ -13,11 +24,15 @@ const ContactSection = () => {
 
         <div className="grid gap-6 lg:grid-cols-2">
           {/* Form */}
-          <form className="bg-white rounded-lg shadow p-6 space-y-4">
+          <form 
+          action="https://formspree.io/f/xanbnqgg" 
+          method="POST"
+          className="bg-white rounded-lg shadow p-6 space-y-4">
             <div>
               <label className="block text-sm font-medium text-[#2D4F2B]">Name</label>
               <input
                 type="text"
+                name="name"
                 className="mt-1 block w-full border border-gray-300 rounded p-2 focus:outline-none focus:ring-2 focus:ring-[#059212]"
                 placeholder="Your Name"
               />
@@ -26,6 +41,7 @@ const ContactSection = () => {
               <label className="block text-sm font-medium text-[#2D4F2B]">Email</label>
               <input
                 type="email"
+                name="email"
                 className="mt-1 block w-full border border-gray-300 rounded p-2 focus:outline-none focus:ring-2 focus:ring-[#059212]"
                 placeholder="you@example.com"
               />
@@ -33,6 +49,7 @@ const ContactSection = () => {
             <div>
               <label className="block text-sm font-medium text-[#2D4F2B]">Message</label>
               <textarea
+                name="message"
                 rows="4"
                 className="mt-1 block w-full border border-gray-300 rounded p-2 focus:outline-none focus:ring-2 focus:ring-[#059212]"
                 placeholder="Your Message"
@@ -45,11 +62,11 @@ const ContactSection = () => {
               Send Message
             </button>
           </form>
-
+   
           {/* Contact info */}
           <div className="text-white flex flex-col justify-center space-y-4">
-            <p><strong>Email:</strong> pocketfarm@urbanfarming.com</p>
-            <p><strong>Phone:</strong> +254 712 345 678</p>
+            <p><strong>Email:</strong> pocketfarmurbanfarming@gmail.com</p>
+            <p><strong>Phone:</strong> +254 700 000 000</p>
             <p><strong>Visit us:</strong> Nairobi, Kenya</p>
             <p className="mt-4 text-[#FFEB00] font-semibold">We’ll get back to you within 24 hours!</p>
           </div>

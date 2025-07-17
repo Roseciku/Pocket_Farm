@@ -11,7 +11,7 @@ const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <nav className="bg-[#2D4F2B] text-white shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold tracking-wide text-[#FFEB00]">PocketFarm</h1>
+        <h1 className="text-2xl font-bold tracking-wide text-[#FFEB00]">MyPocketFarm</h1>
 
         <div className="lg:hidden">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
